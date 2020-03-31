@@ -1,13 +1,14 @@
+@import "../var.scss";
 body {
     margin: 0;
     font-family: 'Muli', sans-serif;
-    background: #8f57fd;
+    background-color: $main-color;
 }
 * {
     box-sizing: border-box;
 }
 .input {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: $main-color;
     border: 2px solid white;
     border-radius: 25px;
     color: white;

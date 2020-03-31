@@ -1,4 +1,6 @@
+@import "../var.scss";
 .carousel-item {
+   background-color: $main-color;
     border-radius: 20px;
     overflow: hidden;
     position: relative;
